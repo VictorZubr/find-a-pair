@@ -1,0 +1,103 @@
+body {
+    font-family: arial, helvetica, verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+h1 {
+    margin: 20px auto;
+    font-size: 1em;
+}
+
+p {
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 0.8em;
+}
+
+main {
+    width: 50%;
+    margin: 20px auto;
+    font-weight: 400;
+}
+
+.game {
+    width: fit-content;
+    padding: 10px;
+    border: grey 1px solid;
+    margin-bottom: 20px;
+}
+
+.game-field {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    outline-offset: -1px;
+    outline: lightgray 1px solid;
+}
+
+.input-form, .output-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    width: 70%;
+    border: grey 1px solid;
+}
+
+
+.output-form p:last-child {
+    text-align: right;
+}
+
+.ok {
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.pink {
+    background-color: hotpink;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.cyan {
+    background-color: cyan;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.cell.closed {
+    background-color: white;
+}
+
