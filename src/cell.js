@@ -32,6 +32,5 @@ export default class Cell extends Component {
 
   unbind() {
     this.element.removeEventListener('click', this.onClickBound);
-    this.element = null;
   }
 }

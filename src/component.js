@@ -1,4 +1,4 @@
-import { createComponentElement } from './utils';
+import createComponentElement from './utils';
 
 export default class Component {
   constructor() {
